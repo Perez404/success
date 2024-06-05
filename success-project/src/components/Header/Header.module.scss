@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    background-color: #323443;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: #4D4D4D;
+    height: 5vh;
+}
+.logo{
+    margin-right: 10px;
+
+}
+.title{
+    font-size: 24px;
+    color: #FFFF;
+    line-height: 30px;
+    
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    background: none;
+    border:  none;
+    
+}
+
+
+.block{
+    display: flex;
+    align-items: center;
+}
+
+// @media (max-width: 1) {
+    
+// }
