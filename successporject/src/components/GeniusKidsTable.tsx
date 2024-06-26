@@ -377,7 +377,7 @@ const GeniusKidsTable: React.FC = () => {
             id="birthDate"
             name="birthDate"
             label="Дата рождения"
-            type="date"
+            type="string"
             InputLabelProps={{
               shrink: true,
             }}
