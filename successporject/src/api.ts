@@ -23,3 +23,12 @@ export const addGeniusKid = async (newKid: Omit<GeniusKid, 'id'>) => {
     throw error;
   }
 };
+
+export const deleteGeniusKid = async (id: string) => {
+  try {
+    await axios.delete(`${API_URL}/${id}`);
+  } catch (error) {
+    console.error('Error deleting data:', error);
+    throw error;
+  }
+};
